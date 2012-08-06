@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "column_prefix"
   gem.require_paths = ["lib"]
   gem.version       = ColumnPrefix::VERSION
+
+  gem.add_dependency('activerecord', '>= 3.2.7')
 end
