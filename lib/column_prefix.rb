@@ -1,4 +1,5 @@
 require "column_prefix/version"
+require "active_record"
 
 module ColumnPrefix
   # Alias prefixed attributes
