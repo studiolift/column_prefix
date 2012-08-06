@@ -16,4 +16,6 @@ Gem::Specification.new do |gem|
   gem.version       = ColumnPrefix::VERSION
 
   gem.add_dependency('activerecord', '>= 3.2.7')
+
+  gem.add_development_dependency('sqlite3')
 end
