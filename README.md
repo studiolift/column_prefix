@@ -20,13 +20,15 @@ Or install it yourself as:
 
 ## Usage
 
-In your model, declare the @column\_prefix@ you would like to alias. For the prefix "entry\_":
+In your model, declare the `column\_prefix` you would like to alias. For the prefix "entry\_":
 
-    class Entry < ActiveRecord::Base
-      column_prefix "entry_"
-    end
+```ruby
+class Entry < ActiveRecord::Base
+  column_prefix "entry_"
+end
+```
 
-You can then access attributes via their simpler name. For example, the column "entry\_title" can be accessed via @e.title@ or @e.entry\_title@ (where @e@ is an instance of @Entry@).
+You can then access attributes via their simpler name. For example, the column "entry\_title" can be accessed via `e.title` or `e.entry\_title` (where `e` is an instance of `Entry`).
 
 ## Contributing
 
