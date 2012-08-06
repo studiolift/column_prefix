@@ -1,4 +1,4 @@
-# Prefixcolumns
+# Column Prefix
 
 Extends ActiveResource with column prefix option
 
@@ -6,7 +6,7 @@ Extends ActiveResource with column prefix option
 
 Add this line to your application's Gemfile:
 
-    gem 'prefixcolumns'
+    gem 'column_prefix'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install prefixcolumns
+    $ gem install column_prefix
 
 ## Usage
 

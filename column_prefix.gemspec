@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/prefixcolumns/version', __FILE__)
+require File.expand_path('../lib/column_prefix/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Mike Robinson"]
@@ -13,5 +13,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "column_prefix"
   gem.require_paths = ["lib"]
-  gem.version       = Prefixcolumns::VERSION
+  gem.version       = ColumnPrefix::VERSION
 end
