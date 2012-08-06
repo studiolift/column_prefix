@@ -20,6 +20,10 @@ class Entry < ActiveRecord::Base
   )
 
   column_prefix "entry_"
+
+  def author
+    "None of your business"
+  end
 end
 
 # Sample data

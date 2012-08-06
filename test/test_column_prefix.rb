@@ -10,4 +10,9 @@ class ColumnPrefixTest < Test::Unit::TestCase
     @entry.title = "Edited title"
     assert_equal @entry.title, @entry.entry_title
   end
+
+  def test_method_clash
+    assert_equal "None of your business", @entry.author
+    assert_equal "Mike Robinson", @entry.entry_author
+  end
 end
